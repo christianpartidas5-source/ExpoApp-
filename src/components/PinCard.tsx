@@ -21,7 +21,11 @@ export default function PinCard({ pin, onHide }: Props) {
       {/* top: avatar, name, menu */}
       <View className="flex-row items-center px-2 pt-2">
         <Image
+<<<<<<< HEAD
           source={{ uri: pin.creator.avatarUrl }}
+=======
+          source={pin.creator.avatarUrl}
+>>>>>>> 7dce7b5b8f3349ae1b2e19320b6394b7f3e311f8
           style={{ width: 30, height: 30, borderRadius: 15 }}
         />
         <View className="ml-2 flex-1">

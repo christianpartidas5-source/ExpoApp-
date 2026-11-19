@@ -1,7 +1,12 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "Christian Facebook",
     "slug": "christian-facebook",
+=======
+    "name": "Micheal Facebook",
+    "slug": "Micheal-facebook",
+>>>>>>> 7dce7b5b8f3349ae1b2e19320b6394b7f3e311f8
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",

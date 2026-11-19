@@ -13,8 +13,13 @@ function RoundButton({ name }: { name: keyof typeof Ionicons.glyphMap }) {
 export default function Header() {
   return (
     <View className="flex-row items-center justify-between bg-white px-4 pb-2 pt-1">
+<<<<<<< HEAD
       <Text className="text-[30px] font-extrabold text-accent" style={{ letterSpacing: -1.2 , color: "#bb009c"}}>
         XYRO
+=======
+      <Text className="text-[30px] font-extrabold text-accent" style={{ letterSpacing: -1.2 , color: "#fc1c0c"}}>
+        KEELBOOK
+>>>>>>> 7dce7b5b8f3349ae1b2e19320b6394b7f3e311f8
       </Text>
       <View className="flex-row items-center">
         <RoundButton name="add" />
